@@ -5,11 +5,18 @@ module.exports = {
 
   projects: [
     {
-      title: "Client Website",
+      title: "Photo Phinish Website",
       demoLink: "https://jmbothe.github.io/photo-phinish/",
       codeLink: "https://github.com/jmbothe/photo-phinish",
       description:
-        'A prototype for a local painting business website, built with <a href="https://foundation.zurb.com/sites.html" target="_blank">Zurb\'s Foundation for Sites</a> front-end framework.'
+        'A prototype for a local painting business website, built with <a href="https://foundation.zurb.com/sites.html" target="_blank">Zurb\'s Foundation for Sites</a> front-end framework. A showcase of mobile-first responsive design and client-focused development.'
+    },
+    {
+      title: "Portfolio First Draft",
+      demoLink: "https://jmbothe.github.io/portfolio-old/",
+      codeLink: "https://github.com/jmbothe/portfolio-old",
+      description:
+        'My first portfolio website. I went in a very different direction from the current site: exuberant, flamboyant, ambitious, irreverent. Loads of fun with <a href="https://jquery.com/" target="_blank">jQuery</a> and the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API" target="_blank">HTML5 Canvas API</a>.',
     },
     {
       title: "Drum Sequencer",
@@ -30,15 +37,8 @@ module.exports = {
       demoLink: "https://jmbothe.github.io/todo-list/dist/",
       codeLink: "https://github.com/jmbothe/todo-list",
       description:
-        'Every newbie coder must at some point complete a todo list tutorial. This is the result of following the amazing <a href="https://watchandcode.com/p/practical-javascript" target="_blank">Watch and Code - Practical Javascript tutorial</a>.'
+        'Every newbie coder must at some point complete a todo list tutorial. This is the result of following Gordon Zhu\'s amazing <a href="https://watchandcode.com/p/practical-javascript" target="_blank">Watch and Code - Practical Javascript tutorial</a>. In the early days of learning to code, this was an absolute game changer for me.'
     },
-    {
-      title: "Portfolio First Draft",
-      demoLink: "https://jmbothe.github.io/portfolio-old/",
-      codeLink: "https://github.com/jmbothe/portfolio-old",
-      description:
-        "For my first portfolio website, I went in a very different direction from the current site. Exuberant, flamboyant, ambitious, irreverent."
-    }
   ],
 
   skills: [
