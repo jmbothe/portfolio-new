@@ -1,46 +1,101 @@
-.projects-button.open-nav-enter {
+/* NAV BUTTONS ENTER */
+
+.projects-button.nav-enter {
   opacity: 0;
   transform: scale(2);
 }
 
-.projects-button.open-nav-enter-active {
+.projects-button.nav-enter-active {
   opacity: 100;
   transform: scale(1);
   transition: all 300ms;
 }
 
-.skills-button.open-nav-enter {
+.skills-button.nav-enter {
   opacity: 0;
   transform: scale(2);
 }
 
-.skills-button.open-nav-enter-active {
+.skills-button.nav-enter-active {
   opacity: 100;
   transform: scale(1);
   transition: all 300ms 100ms;
 }
 
-.contact-button.open-nav-enter {
+.contact-button.nav-enter {
   opacity: 0;
   transform: scale(2);
 }
 
-.contact-button.open-nav-enter-active {
+.contact-button.nav-enter-active {
   opacity: 100;
   transform: scale(1);
   transition: all 300ms 200ms;
 }
 
-.justBecause-button.open-nav-enter {
+.justBecause-button.nav-enter {
   opacity: 0;
   transform: scale(2);
 }
 
-.justBecause-button.open-nav-enter-active {
+.justBecause-button.nav-enter-active {
   opacity: 100;
   transform: scale(1);
   transition: all 300ms 300ms;
 }
+
+/* NAV BUTTONS LEAVE */
+
+.projects-button.nav-leave {
+  opacity: 100;
+  transform: scale(1);
+}
+
+.projects-button.nav-leave-active {
+  opacity: 0;
+  transform: scale(2);
+  transition: all 300ms 400ms;
+}
+
+.skills-button.nav-leave {
+  opacity: 100;
+  transform: scale(1);
+}
+
+.skills-button.nav-leave-active {
+  opacity: 0;
+  transform: scale(2);
+  transition: all 300ms 300ms;
+}
+
+.contact-button.nav-leave {
+  opacity: 100;
+  transform: scale(1);
+}
+
+.contact-button.nav-leave-active {
+  opacity: 0;
+  transform: scale(2);
+  transition: all 300ms 200ms;
+}
+
+.justBecause-button.nav-leave {
+  opacity: 100;
+  transform: scale(1);
+}
+
+.justBecause-button.nav-leave-active {
+  opacity: 0;
+  transform: scale(2);
+  transition: all 300ms 100ms;
+}
+
+.nav-leave-active.active::after {
+  width: 0;
+  transition: all 200ms ease;
+}
+
+/* SECTIONS TOGGLE */
 
 .sections-enter {
   position: absolute;

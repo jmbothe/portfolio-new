@@ -44,9 +44,9 @@ class Header extends Component {
         <h2>web developer</h2>
         <CSSTransitionGroup
           component="nav"
-          transitionName="open-nav"
+          transitionName="nav"
           transitionEnterTimeout={600}
-          transitionLeave={false}
+          transitionLeaveTimeout={700}
         >
           {items}
         </CSSTransitionGroup>
