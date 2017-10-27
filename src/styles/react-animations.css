@@ -1,0 +1,73 @@
+.projects-button.open-nav-enter {
+  opacity: 0;
+  transform: scale(2);
+}
+
+.projects-button.open-nav-enter-active {
+  opacity: 100;
+  transform: scale(1);
+  transition: all 300ms;
+}
+
+.skills-button.open-nav-enter {
+  opacity: 0;
+  transform: scale(2);
+}
+
+.skills-button.open-nav-enter-active {
+  opacity: 100;
+  transform: scale(1);
+  transition: all 300ms 100ms;
+}
+
+.contact-button.open-nav-enter {
+  opacity: 0;
+  transform: scale(2);
+}
+
+.contact-button.open-nav-enter-active {
+  opacity: 100;
+  transform: scale(1);
+  transition: all 300ms 200ms;
+}
+
+.justBecause-button.open-nav-enter {
+  opacity: 0;
+  transform: scale(2);
+}
+
+.justBecause-button.open-nav-enter-active {
+  opacity: 100;
+  transform: scale(1);
+  transition: all 300ms 300ms;
+}
+
+.sections-enter {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+
+.sections-enter-active {
+  opacity: 100;
+  transition: all 300ms 300ms ease;
+}
+
+.sections-leave {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 100;
+}
+
+.sections-leave-active {
+  opacity: 0;
+  transition: all 300ms ease;
+}

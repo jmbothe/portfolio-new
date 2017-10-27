@@ -12,7 +12,7 @@ class Projects extends Component {
       <li className="project" key={title}>
         <h2>{title}</h2>
         <span>
-          <a href={demoLink} target="_blank">Demo</a> / <a href={codeLink} target="_blank">Code</a>
+          <a href={demoLink} target="_blank">Demo</a> <span>/</span> <a href={codeLink} target="_blank">Code</a>
         </span>
         <p dangerouslySetInnerHTML={{__html: description}}></p>
       </li>

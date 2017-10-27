@@ -1,5 +1,5 @@
 module.exports = {
-  sections: ['About', 'Projects', 'Skills', 'Contact'],
+  sections: ['about', 'projects', 'skills', 'contact', 'justBecause'],
 
   about: `Hi, I'm Jeff, front-end web developer, musician, photographer, and traveler from Baltimore, MD. I currently live in the central mountains of Colombia, where I devote all of my free time to leveling-up my tech skills. I also like to climb the local volcanoes when the weather is good. Enjoy this portfolio of my web development work, and if you like what you see, please get in touch :)`,
 

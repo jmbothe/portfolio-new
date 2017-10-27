@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './styles/App.css';
 import Header from './components/Header';
 import Sections from './components/Sections'
 
@@ -9,12 +8,20 @@ class App extends Component {
 
     this.toggleActiveSection = this.toggleActiveSection.bind(this);
     this.state = {
-      activeSection: 'About',
-    }
+      activeSection: 'initial',
+    };
   }
 
   toggleActiveSection(section) {
     this.setState({activeSection: section})
+    // document.querySelectorAll('button').forEach((item) => {
+    //   item.disabled = true
+    // })
+    // setTimeout(() => {
+    //   document.querySelectorAll('button').forEach((item) => {
+    //     item.disabled = false
+    //   })
+    // }, 300)
   }
 
   render() {

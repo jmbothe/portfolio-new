@@ -1,19 +1,29 @@
 import React, { Component } from 'react';
-// import CSSTransitionGroup from 'react-addons-css-transition-group';
+import { CSSTransitionGroup } from 'react-transition-group';
 import About from './About';
 import Projects from './Projects';
 import Skills from './Skills';
 import Contact from './Contact';
+import JustBecause from './JustBecause';
+import Initial from './Initial';
 
 class Sections extends Component {
   render() {
-    const componentList = {About, Projects, Skills, Contact};
-    const Element = componentList[this.props.activeSection];
+    const section =
+    `${this.props.activeSection}`.charAt(0).toUpperCase() + `${this.props.activeSection}`.slice(1);
+    const componentList = {Initial, About, Projects, Skills, Contact, JustBecause};
+    const Element = componentList[section];
 
     return (
-      <div className="sections-container">
-        <Element />
-      </div>
+      <CSSTransitionGroup
+      component="div"
+      className="sections-container"
+      transitionName="sections"
+      transitionEnterTimeout={600}
+      transitionLeaveTimeout={600}
+      >
+        <Element key={section} />
+      </CSSTransitionGroup>
     );
   }
 }
