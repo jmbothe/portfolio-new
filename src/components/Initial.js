@@ -1,11 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Initial extends Component {
   render() {
-    return (
-      <div className="hi">
-      </div>
-    )
+    return <div className="hi" />;
   }
 }
 

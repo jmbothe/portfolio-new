@@ -53,6 +53,7 @@ h1, h2 {
 }
 
 h1 {
+  cursor: pointer;
   font-size: 8rem;
   margin: 2% 0 0 0;
 }
@@ -89,7 +90,7 @@ button {
   width: 100%;
   height: 100%;
   background-color: #000;
-  background-image: url('../assets/initial-face.png');
+  background-image: url('../assets/face-hi.png');
   background-size: cover;
   background-position: 50% 35%;
 }
@@ -115,12 +116,9 @@ button {
 }
 
 .about {
-  display: flex;
-  align-items: center;
 }
 
 .about p {
-  margin: 0;
   font-size: 2.6rem;
 }
 
@@ -132,8 +130,12 @@ button {
   font-size: 2.3rem;
 }
 
-.project p a {
-  color: #555;
+.project a {
+  color: hsla(0, 0%, 0%, .5);
+}
+
+.project a:hover {
+  text-decoration: underline;
 }
 
 .project span a:first-of-type + span {
@@ -144,10 +146,6 @@ button {
 .project span:hover span {
   transform: rotate(180deg);
   transition: all 200ms ease;
-}
-
-.project a:hover {
-  text-decoration: underline;
 }
 
 .skills li {

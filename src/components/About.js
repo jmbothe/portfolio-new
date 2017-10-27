@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
-import { about } from '../data.js';
+import React, { Component } from "react";
+import { about } from "../data.js";
 
 class About extends Component {
   render() {
     return (
-      <section className="about">
-        <p>{about}</p>
-      </section>
+      <section className="about" dangerouslySetInnerHTML={{ __html: about }} />
     );
   }
 }

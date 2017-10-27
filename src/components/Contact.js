@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { contacts } from '../data.js';
+import React, { Component } from "react";
+import { contacts } from "../data.js";
 
 class Contact extends Component {
   constructor() {
@@ -11,10 +11,11 @@ class Contact extends Component {
   renderContact(name, link) {
     return (
       <li key={name}>
-        <a href={link} target="_blank">{name}</a>
+        <a href={link} target="_blank">
+          {name}
+        </a>
       </li>
-    )
-
+    );
   }
   render() {
     return (

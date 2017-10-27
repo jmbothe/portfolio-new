@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { skills } from '../data.js';
+import React, { Component } from "react";
+import { skills } from "../data.js";
 
 class Skills extends Component {
   constructor() {
@@ -10,20 +10,16 @@ class Skills extends Component {
   renderSkill(title, items) {
     return (
       <li className="skill" key={title}>
-      <h2>{title}</h2>
-      <ul>
-      {items.map(item => <li key={item}>{item}</li>)}
-      </ul>
+        <h2>{title}</h2>
+        <ul>{items.map(item => <li key={item}>{item}</li>)}</ul>
       </li>
-    )
+    );
   }
 
   render() {
     return (
       <section className="skills">
-        <ul>
-          {skills.map(item => this.renderSkill(item.title, item.items))}
-        </ul>
+        <ul>{skills.map(item => this.renderSkill(item.title, item.items))}</ul>
       </section>
     );
   }
