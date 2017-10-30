@@ -173,7 +173,8 @@ button {
 }
 
 .contact li:hover {
-  transform: perspective(100px) translateZ(10px);
+  backface-visibility: hidden;
+  transform: scale(1.1);
   transition: all 250ms ease;
 }
 
