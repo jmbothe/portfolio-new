@@ -22,7 +22,7 @@
 
 ## Description
 
-This is the first non-tutorial-based site I've built with React.js. It's super simple and showcases the core of React's architectural patterns. After writing a lot fo vanilla JS and jQuesry, using React was a breath of fresh air. Even while using the MVC patter, I always felt like my code was spaghetti. Using React was very intuitive for me, and by comparison I felt like I was making ravioli for the first time.
+This is the first non-tutorial-based site I've built with React.js. It's super simple and showcases the core of React's architectural patterns. After writing a lot fo vanilla JS and jQuery, using React was a breath of fresh air. Even while following the MVC pattern, I always felt like my code was spaghetti. Using React was very intuitive for me, and by comparison I felt like I was making ravioli for the first time.
 
 <a name="contributing"/>
 
