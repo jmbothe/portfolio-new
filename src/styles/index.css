@@ -152,14 +152,14 @@ button {
   margin-bottom: 6px;
 }
 
-.contact {
+.connect {
   display: flex;
   justify-content: center;
   height: 100%;
   font-size: 7rem;
 }
 
-.contact ul {
+.connect ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -167,12 +167,12 @@ button {
   margin: 4%;
 }
 
-.contact li {
+.connect li {
   margin: 2%;
   transition: all 250ms ease;
 }
 
-.contact li:hover {
+.connect li:hover {
   backface-visibility: hidden;
   transform: scale(1.1);
   transition: all 250ms ease;
@@ -290,7 +290,7 @@ button {
 }
 
 @media screen and (min-aspect-ratio: 2/3) {
-  .contact {
+  .connect {
     font-size: 6rem;
   }
 }
@@ -341,7 +341,7 @@ button {
   }
 
   .about p {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 
   .projects h2, .skills h2 {
@@ -352,7 +352,7 @@ button {
     font-size: 3rem;
   }
 
-  .contact {
+  .connect {
     font-size: 11rem;
   }
 
@@ -391,7 +391,7 @@ button {
     font-size: 4.5rem;
   }
 
-  .contact {
+  .connect {
     font-size: 9rem;
   }
 }
@@ -409,7 +409,7 @@ button {
     font-size: 6.25rem;
   }
 
-  .contact {
+  .connect {
     font-size: 11rem;
   }
 }

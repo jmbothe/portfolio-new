@@ -3,7 +3,7 @@ import { CSSTransitionGroup } from "react-transition-group";
 import About from "./About";
 import Projects from "./Projects";
 import Skills from "./Skills";
-import Contact from "./Contact";
+import Connect from "./Connect";
 import JustBecause from "./JustBecause";
 import Initial from "./Initial";
 
@@ -17,7 +17,7 @@ class Sections extends Component {
       About,
       Projects,
       Skills,
-      Contact,
+      Connect,
       JustBecause
     };
     const Element = componentList[section];
