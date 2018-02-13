@@ -1,7 +1,7 @@
 module.exports = {
   sections: ["about", "projects", "skills", "connect", "justBecause"],
 
-  about: `<p>I'm a full-stack web developer, traveler, and photographer from Baltimore, MD.</p><p>My work focuses on the essentials of mobile-first responsive design, pattern-oriented software architecture, and agile software development processes.</p><p>I am passionate about technology and community, and I live to solve tough problems and make cool stuff. I devote all of my free time to leveling up my tech skills.<p>I am available for all your web technology needs. Enjoy this portfolio and if you like what you see, please get in touch :)</p>`,
+  about: `<p>As a results-driven web developer, my work focuses on the essentials of mobile-first responsive design, pattern-oriented software architecture, and agile software development processes.</p><p>I am passionate about technology and community, and I live to solve tough problems and make cool stuff. I am a life-long learner, and I devote all of my free time to leveling up my tech skills.<p>I am available for all your web technology needs. Enjoy this portfolio and if you like what you see, please get in touch :)</p>`,
 
   projects: [
     {
@@ -59,10 +59,9 @@ module.exports = {
     {
       title: "Core",
       items: [
-        "Mobile-first responsive design.",
-        "Offline-first progressive web app development.",
+        "Mobile-first/offline-first responsive design.",
         "Pattern-oriented software architecture design.",
-        "Clean, DRY, self-documenting code.",
+        "Clean, DRY, declarative, self-documenting code.",
         "Agile software development processes."
       ]
     },
@@ -75,7 +74,7 @@ module.exports = {
         "jQuery",
         "React.js and JSX",
         "Node.js and npm",
-        "Service Workers",
+        "PWAs and Service Workers",
         "Bootstrap and Foundation",
         "Git and GitHub"
       ]

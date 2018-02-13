@@ -107,7 +107,7 @@ button {
 .sections-container > section {
   height: 100%;
   width: 100%;
-  padding: 0 5%;
+  padding: 5%;
   background-color: #fff;
 }
 
@@ -115,7 +115,9 @@ button {
   color: #000;
 }
 
-.about {
+.about p,
+.sections-container > section h2 {
+  margin-top: 0;
 }
 
 .about p {
@@ -148,8 +150,12 @@ button {
   transition: all 200ms ease;
 }
 
-.skills li {
-  margin-bottom: 6px;
+.skill li {
+  margin-bottom: 1%;
+}
+
+.skill {
+  margin-bottom: 5%;
 }
 
 .connect {
@@ -341,7 +347,7 @@ button {
   }
 
   .about p {
-    font-size: 4rem;
+    font-size: 4.25rem;
   }
 
   .projects h2, .skills h2 {
